@@ -225,19 +225,16 @@ To keep watching your test suites that you are working on, just set `singleRun: 
 
 ## Deployment on Heroku
 
-To get this project to work on Heroku, you need to:
+To get this project to work on Production, you need to:
 
 1. Remove the `"PORT": 8080` line from the `betterScripts` / `start-prod` section of `package.json`.
-2. `heroku config:set NODE_ENV=production`
-3. `heroku config:set NODE_PATH=./src`
-4. `heroku config:set NPM_CONFIG_PRODUCTION=false`
+2. `config:set NODE_ENV=production`
+3. `config:set NODE_PATH=./src`
+4. `config:set NPM_CONFIG_PRODUCTION=false`
   * This is to enable webpack to run the build on deploy.
 
 The first deploy might take a while, but after that your `node_modules` dir should be cached.
 
-## FAQ
-
-This project moves fast and has an active community, so if you have a question that is not answered below please visit our [Discord channel](https://discord.gg/0ZcbPKXt5bZZb1Ko) or file an issue.
 
 
 ## Roadmap 
