@@ -74,7 +74,7 @@ npm run start
 
 ## Demo
 
-A demonstration of this app can be seen [running on heroku](https://react-redux.herokuapp.com), which is a deployment of the [heroku branch](https://github.com/erikras/react-redux-universal-hot-example/tree/heroku).
+A demonstration of this app can be seen [running on yooshopper](http://yooshopper.com).
 
 ## Documentation
 
@@ -255,4 +255,4 @@ If you would like to submit a pull request, please make an effort to follow the 
 ---
 Thanks for checking this out.
 
-– Erik Rasmussen, [@erikras](https://twitter.com/erikras)
+– Varun Gautam, [@gautamv16](https://twitter.com/gautamv16)
